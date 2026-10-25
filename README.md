@@ -1,6 +1,6 @@
 # GreenKart – Playwright Test Automation
 
-End-to-end UI tests for the [GreenKart practice app](https://rahulshettyacademy.com/seleniumPractise/#/) built with Playwright and TypeScript, using the Page Object Model. Tests run locally on Google Chrome.
+End-to-end UI tests for the [GreenKart practice app](https://rahulshettyacademy.com/seleniumPractise/#/) built with Playwright and TypeScript, using the Page Object Model. Tests run locally on Chromium.
 
 ## Tech stack
 
@@ -47,7 +47,7 @@ Edit `.env` and fill in the values (see `.env.example` for the keys). Values con
 
 | Command | What it runs |
 | --- | --- |
-| `npm test` | All tests on Google Chrome |
+| `npm test` | All tests on Chromium |
 | `npm run test:smoke` | `@smoke` tests |
 | `npm run test:regression` | `@regression` tests |
 | `npm run test:negative` | `@negative` tests |
